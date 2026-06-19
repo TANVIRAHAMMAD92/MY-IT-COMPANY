@@ -47,7 +47,8 @@ nav{
 }
 
 .menu li:hover{
-    background:#00c6ff;
+     background:rgba(255,255,255,0.15);
+    border-radius:6px;
 }
 .menu a{
     transition:0.3s;
@@ -56,6 +57,18 @@ nav{
 .menu a:hover{
     color:#0ea5e9;
 }
+.submenu li{
+    transition:0.3s;
+}
+
+.submenu li:hover{
+    background:#ffffff;
+}
+
+.submenu li:hover a{
+    color:#0d6efd;
+}
+
 
 /* Dropdown */
 
@@ -98,6 +111,18 @@ nav{
     color:#0078ff;
     cursor:pointer;
     font-weight:bold;
+}
+.submenu{
+    opacity:0;
+    visibility:hidden;
+    transform:translateY(10px);
+    transition:0.3s ease;
+}
+
+.dropdown:hover .submenu{
+    opacity:1;
+    visibility:visible;
+    transform:translateY(0);
 }
 
 /* Services */
