@@ -2,36 +2,80 @@ function showPage(page){
 
     const pages = {
 overview: `
-    <h2>Overview</h2>
-    <p>
-    Welcome to My IT Company. We are dedicated to delivering innovative,
-    reliable, and cost-effective IT solutions for businesses of all sizes.
-    Our team of experienced professionals specializes in web development,
-    mobile applications, digital marketing, graphic design, and technical
-    support services.
-    </p>
+<section class="overview-section">
 
-    <div class="service-features">
-        <div class="feature-card">
-            <h3>Professional Services</h3>
-            <p>High-quality IT solutions tailored to meet your business requirements.</p>
+    <div class="overview-header">
+        <h2>🚀 Welcome to My IT Company</h2>
+        <p>
+            We empower businesses with innovative technology solutions,
+            helping them grow faster, smarter, and more efficiently in the
+            digital world.
+        </p>
+    </div>
+
+    <div class="stats-container">
+        <div class="stat-card">
+            <h3>150+</h3>
+            <p>Completed Projects</p>
         </div>
 
-        <div class="feature-card">
-            <h3>Experienced Team</h3>
-            <p>Skilled developers, designers, and IT experts with industry experience.</p>
+        <div class="stat-card">
+            <h3>100+</h3>
+            <p>Happy Clients</p>
         </div>
 
-        <div class="feature-card">
-            <h3>Innovative Solutions</h3>
-            <p>Modern technologies and creative strategies to help businesses grow.</p>
+        <div class="stat-card">
+            <h3>5+</h3>
+            <p>Years Experience</p>
         </div>
 
-        <div class="feature-card">
-            <h3>24/7 Support</h3>
-            <p>Reliable customer support and maintenance services whenever you need them.</p>
+        <div class="stat-card">
+            <h3>24/7</h3>
+            <p>Technical Support</p>
         </div>
     </div>
+
+    <div class="service-features">
+
+        <div class="feature-card">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Web Development</h3>
+            <p>
+                Responsive websites, e-commerce platforms,
+                and custom web applications.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Mobile Apps</h3>
+            <p>
+                Android and iOS applications designed for
+                performance and user experience.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Digital Marketing</h3>
+            <p>
+                SEO, social media marketing, and online
+                branding strategies to increase visibility.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-headset"></i>
+            <h3>24/7 IT Support</h3>
+            <p>
+                Continuous monitoring, maintenance,
+                and technical assistance.
+            </p>
+        </div>
+
+    </div>
+
+</section>
 `,
 
         features: `
@@ -64,27 +108,41 @@ overview: `
 `,
 
 testimonials: `
-    <h2>Testimonials</h2>
-    <p>What our clients say about our services.</p>
+<h2>💬 Client Testimonials</h2>
+<p>Trusted by businesses and organizations.</p>
 
-    <div class="testimonial-container">
+<div class="testimonial-container">
 
-        <div class="testimonial-card">
-            <p>"Excellent service and professional support. Highly recommended!"</p>
-            <h4>- John Smith</h4>
-        </div>
-
-        <div class="testimonial-card">
-            <p>"Their team delivered our project on time with outstanding quality."</p>
-            <h4>- Sarah Johnson</h4>
-        </div>
-
-        <div class="testimonial-card">
-            <p>"Very reliable company with great customer support."</p>
-            <h4>- Michael Brown</h4>
-        </div>
-
+    <div class="testimonial-card">
+        <img src="https://i.pravatar.cc/100?img=1" alt="">
+        <p>
+        "Excellent service and professional support.
+        Highly recommended!"
+        </p>
+        <h4>John Smith</h4>
+        <span>CEO, Tech Solutions</span>
     </div>
+
+    <div class="testimonial-card">
+        <img src="https://i.pravatar.cc/100?img=5" alt="">
+        <p>
+        "Their team delivered our project on time
+        with outstanding quality."
+        </p>
+        <h4>Sarah Johnson</h4>
+        <span>Marketing Manager</span>
+    </div>
+
+    <div class="testimonial-card">
+        <img src="https://i.pravatar.cc/100?img=8" alt="">
+        <p>
+        "Very reliable company with great customer support."
+        </p>
+        <h4>Michael Brown</h4>
+        <span>Business Owner</span>
+    </div>
+
+</div>
 `,
 
 
@@ -248,61 +306,226 @@ testimonials: `
     </div>
 `,
         story: `
-            <h2>Our Story</h2>
-            <p>
-            Founded with a passion for technology, our company has
-            grown into a professional IT service provider.
-            </p>
-        `,
+<section class="story-section">
 
-        achievement: `
-            <h2>Achievements</h2>
-            <p>
-            ✔ 100+ Projects Completed<br>
-            ✔ 50+ Happy Clients<br>
-            ✔ 24/7 Support
-            </p>
-        `,
-
-        web: `
-            <h2>Web Development</h2>
-            <p>
-            We create responsive, modern and secure websites
-            tailored to your business needs.
-            </p>
-        `,
-
-     marketing: `
-    <h2>Digital Marketing</h2>
-    <p>
-    Our digital marketing services help businesses increase their online
-    visibility, attract targeted customers, and grow their brand through
-    effective marketing strategies and data-driven campaigns.
-    </p>
-
-    <div class="service-features">
-        <div class="feature-card">
-            <h3>SEO Optimization</h3>
-            <p>Improve search engine rankings and drive organic traffic to your website.</p>
-        </div>
-
-        <div class="feature-card">
-            <h3>Social Media Marketing</h3>
-            <p>Engage your audience through Facebook, Instagram, LinkedIn, and other platforms.</p>
-        </div>
-
-        <div class="feature-card">
-            <h3>Online Branding</h3>
-            <p>Build a strong digital presence and increase brand awareness across the web.</p>
-        </div>
-
-        <div class="feature-card">
-            <h3>Content Marketing</h3>
-            <p>Create valuable content that attracts, informs, and converts potential customers.</p>
-        </div>
+    <div class="story-header">
+        <h2>📖 Our Story</h2>
+        <p>
+            Our journey began with a simple vision: to help businesses
+            embrace technology and achieve digital success.
+        </p>
     </div>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <span>2021</span>
+            <h3>Company Founded</h3>
+            <p>
+                Started as a small team of passionate developers and designers.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <span>2022</span>
+            <h3>First 50 Clients</h3>
+            <p>
+                Successfully delivered websites and digital solutions for businesses.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <span>2024</span>
+            <h3>Service Expansion</h3>
+            <p>
+                Added Mobile App Development, SEO, and Digital Marketing services.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <span>2026</span>
+            <h3>Growing Strong</h3>
+            <p>
+                Continuing to provide innovative and reliable IT solutions worldwide.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+`,
+        achievement: `
+<section class="achievement-section">
+
+    <div class="section-title">
+        <h2>🏆 Our Achievements</h2>
+        <p>
+            We are proud of our accomplishments and the trust our clients place in us.
+        </p>
+    </div>
+
+    <div class="achievement-container">
+
+        <div class="achievement-card">
+            <i class="fas fa-project-diagram"></i>
+            <h3 class="counter" data-target="100">0</h3>
+            <p>Projects Completed</p>
+        </div>
+
+        <div class="achievement-card">
+            <i class="fas fa-smile"></i>
+            <h3 class="counter" data-target="50">0</h3>
+            <p>Happy Clients</p>
+        </div>
+
+        <div class="achievement-card">
+            <i class="fas fa-headset"></i>
+            <h3>24/7</h3>
+            <p>Technical Support</p>
+        </div>
+
+        <div class="achievement-card">
+            <i class="fas fa-award"></i>
+            <h3 class="counter" data-target="10">0</h3>
+            <p>Industry Awards</p>
+        </div>
+
+    </div>
+
+</section>
 `,
 
+      web: `
+<section class="service-section">
+
+    <div class="service-header">
+        <h2>🌐 Web Development</h2>
+        <p>
+            We create responsive, modern, fast and secure websites
+            tailored to your business goals and customer needs.
+        </p>
+    </div>
+
+    <div class="service-cards">
+
+        <div class="service-card">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Custom Websites</h3>
+            <p>Professional business and portfolio websites.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fas fa-shopping-cart"></i>
+            <h3>E-Commerce</h3>
+            <p>Online stores with secure payment integration.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Responsive Design</h3>
+            <p>Perfect display on mobile, tablet and desktop.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Secure Solutions</h3>
+            <p>Advanced security and performance optimization.</p>
+        </div>
+
+    </div>
+
+    <div class="service-stats">
+        <div>
+            <h3>100+</h3>
+            <p>Web Projects</p>
+        </div>
+
+        <div>
+            <h3>50+</h3>
+            <p>Clients Served</p>
+        </div>
+
+        <div>
+            <h3>99%</h3>
+            <p>Client Satisfaction</p>
+        </div>
+    </div>
+
+</section>
+`,
+   marketing: `
+<section class="marketing-section">
+
+    <div class="section-title">
+        <h2>📈 Digital Marketing</h2>
+        <p>
+            Grow your business with powerful digital marketing strategies,
+            targeted campaigns, and data-driven results.
+        </p>
+    </div>
+
+    <div class="service-features">
+
+        <div class="feature-card">
+            <i class="fas fa-search"></i>
+            <h3>SEO Optimization</h3>
+            <p>
+                Improve search rankings and increase organic website traffic.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fab fa-facebook"></i>
+            <h3>Social Media Marketing</h3>
+            <p>
+                Reach and engage customers through social media platforms.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Online Branding</h3>
+            <p>
+                Build a strong brand identity and increase online visibility.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-pen-fancy"></i>
+            <h3>Content Marketing</h3>
+            <p>
+                Create high-quality content that attracts and converts customers.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="marketing-stats">
+
+        <div class="stat-box">
+            <h3>500K+</h3>
+            <p>Audience Reached</p>
+        </div>
+
+        <div class="stat-box">
+            <h3>200+</h3>
+            <p>Marketing Campaigns</p>
+        </div>
+
+        <div class="stat-box">
+            <h3>95%</h3>
+            <p>Client Satisfaction</p>
+        </div>
+
+        <div class="stat-box">
+            <h3>50+</h3>
+            <p>Brands Promoted</p>
+        </div>
+
+    </div>
+
+</section>
+`,
        support: `
     <h2>IT Support</h2>
     <p>
@@ -396,6 +619,54 @@ appproject: `
         </div>
 
     </div>
+`,
+designproject: `
+<section class="projects">
+
+    <div class="section-title">
+        <h2>🎨 Design Projects</h2>
+        <p>
+            Creative and visually appealing designs that help brands stand out.
+        </p>
+    </div>
+
+    <div class="project-container">
+
+        <div class="project-card">
+            <i class="fas fa-palette"></i>
+            <h3>Logo Design</h3>
+            <p>
+                Unique and memorable logo designs for businesses and startups.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <i class="fas fa-image"></i>
+            <h3>Banner Design</h3>
+            <p>
+                Professional banners for websites, social media, and advertising.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Marketing Materials</h3>
+            <p>
+                Flyers, brochures, posters, and promotional graphics.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>UI/UX Design</h3>
+            <p>
+                Modern user interfaces and user experiences for web and mobile apps.
+            </p>
+        </div>
+
+    </div>
+
+</section>
 `,
 
      otherproject: `
@@ -493,36 +764,82 @@ appproject: `
     </div>
 `,
 
-      development: `
-    <h2>Development Team</h2>
-    <p>
-    Our experienced development team specializes in creating innovative,
-    scalable, and secure digital solutions. We combine technical expertise
-    with creative problem-solving to deliver high-quality software that
-    helps businesses achieve their goals.
-    </p>
+     development: `
+<section class="development-section">
+
+    <div class="section-title">
+        <h2>💻 Development Team</h2>
+        <p>
+            Our skilled developers build innovative, scalable, and secure
+            digital solutions that help businesses grow in the modern world.
+        </p>
+    </div>
 
     <div class="service-features">
+
         <div class="feature-card">
+            <i class="fas fa-code"></i>
             <h3>Web Developers</h3>
-            <p>Building responsive, fast, and secure websites using modern technologies.</p>
+            <p>
+                Creating responsive, fast, and SEO-friendly websites
+                using modern technologies.
+            </p>
         </div>
 
         <div class="feature-card">
+            <i class="fas fa-mobile-alt"></i>
             <h3>Mobile App Developers</h3>
-            <p>Creating powerful Android and iOS applications for businesses and startups.</p>
+            <p>
+                Building Android and iOS applications with smooth
+                performance and user-friendly interfaces.
+            </p>
         </div>
 
         <div class="feature-card">
+            <i class="fas fa-server"></i>
             <h3>Backend Engineers</h3>
-            <p>Developing robust server-side systems, APIs, and database solutions.</p>
+            <p>
+                Developing secure APIs, databases, and server-side
+                systems for enterprise solutions.
+            </p>
         </div>
 
         <div class="feature-card">
+            <i class="fas fa-shield-alt"></i>
             <h3>Quality Assurance</h3>
-            <p>Ensuring every project is tested thoroughly for performance, security, and reliability.</p>
+            <p>
+                Testing and optimizing applications to ensure
+                reliability, security, and performance.
+            </p>
         </div>
+
     </div>
+
+    <div class="team-stats">
+
+        <div class="stat-box">
+            <h3>25+</h3>
+            <p>Developers</p>
+        </div>
+
+        <div class="stat-box">
+            <h3>100+</h3>
+            <p>Projects Delivered</p>
+        </div>
+
+        <div class="stat-box">
+            <h3>50+</h3>
+            <p>Happy Clients</p>
+        </div>
+
+        <div class="stat-box">
+            <h3>99%</h3>
+            <p>Success Rate</p>
+        </div>
+
+    </div>
+
+</section>
 `,
 
        marketingteam: `
@@ -753,7 +1070,48 @@ appproject: `
         <p><strong>📞 Contact:</strong> +880 1234-567890</p>
     </div>
 `,
+
     };
 
     document.getElementById("content-area").innerHTML = pages[page];
 }
+function searchContent() {
+    let keyword = document.getElementById("searchInput").value.toLowerCase().trim();
+
+    if (keyword.includes("about")) {
+        showPage("about");
+    } 
+    else if (keyword.includes("overview")) {
+        showPage("overview");
+    }
+    else if (keyword.includes("mission")) {
+        showPage("mission");
+    }
+    else if (keyword.includes("story")) {
+        showPage("story");
+    }
+    else if (keyword.includes("achievement")) {
+        showPage("achievement");
+    }
+    else if (keyword.includes("web")) {
+        showPage("web");
+    }
+    else if (keyword.includes("marketing")) {
+        showPage("marketing");
+    }
+    else if (keyword.includes("support")) {
+        showPage("supportcenter");
+    }
+    else if (keyword.includes("location")) {
+        showPage("location");
+    }
+    else if (keyword.includes("contact")) {
+        showPage("contactus");
+    }
+    else {
+        document.getElementById("content-area").innerHTML =
+        "<h2>No Result Found</h2><p>Please try another keyword.</p>";
+        console.log("Search Loaded");
+    }
+}
+
