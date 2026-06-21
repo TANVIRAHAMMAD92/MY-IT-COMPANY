@@ -1067,7 +1067,7 @@ designproject: `
     <div class="location-info">
         <p><strong>📌 Address:</strong> Dhaka, Bangladesh</p>
         <p><strong>🕒 Hours:</strong> Saturday - Thursday | 9:00 AM - 6:00 PM</p>
-        <p><strong>📞 Contact:</strong> +880 1234-567890</p>
+        <p><strong>📞 Contact:</strong> +880 1313865268</p>
     </div>
 `,
 

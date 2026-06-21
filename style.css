@@ -1250,3 +1250,27 @@ margin-top: 30px;
 .search-box button:hover{
     background:#0284c7;
 }
+/* login button css */
+.login-btn{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:10px 20px;
+    background:#0d6efd;
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:600;
+    transition:0.3s ease;
+    margin-left: 20px;
+}
+
+.login-btn:hover{
+    background:#084298;
+    transform:translateY(-2px);
+}
+
+.login-btn i{
+    font-size:16px;
+}
